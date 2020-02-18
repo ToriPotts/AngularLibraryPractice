@@ -1,0 +1,11 @@
+<h2>{{book.title}} Details</h2>
+
+<div><span>title: </span>{{book.title}}</div>
+<div><span>author: </span>{{book.author}}</div>
+<div><span>pages: </span>{{book.pages}}</div>
+<div><span>read: </span>{{book.read}}</div>
+<div>
+    <label>name:
+      <input [(ngModel)]="book.title" placeholder="title"/>
+    </label>
+</div>
